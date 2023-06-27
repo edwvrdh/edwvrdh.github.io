@@ -40,6 +40,11 @@ a {
     cursor: pointer;
 }
 
+.center-text {
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
 .container {
     opacity: 0;
     transition: all 1s;
@@ -47,6 +52,16 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.single-container {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(0.1em);
+    display: grid;
+    grid-template-columns: 1fr;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -140,11 +155,26 @@ a {
     padding-left: 10em;
 }
 
+.medium-image {
+    width: auto;
+    height: 15em;
+    padding-left: 10em;
+}
+
 .image-left {
     width: auto;
     height: 25em;
     padding-left: 10em;
     float: left;
+}
+
+.dots {
+    display: block;
+    width: 5%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
 }
 
 .header-text {
