@@ -51,6 +51,53 @@ a {
     padding-bottom: 2em;
 }
 
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.para-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-10px) scale(2);
+}
+
+.heading-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.fit-width {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+  }
+  
+.image-text-purple {
+    font-weight: bold;
+    font-size: 60px;
+    color: #5500FF;
+    background: -webkit-linear-gradient(#9D53FF, #5500FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .show {
     opacity: 1;
     filter: blur(0);
@@ -62,8 +109,8 @@ a {
 
 .purple {
     background-color: rgb(235, 229, 255);
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 5em;
 }
 
 .purple-title {
@@ -74,8 +121,17 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+.purple-heading {
+    color:#5500FF;
+    text-align: center;
+}
+
 .padding-left {
     padding-left: 10em;
+}
+
+.padding-right {
+    padding-right: 10em;
 }
 
 .image {
@@ -84,15 +140,37 @@ a {
     padding-left: 10em;
 }
 
+.image-left {
+    width: auto;
+    height: 25em;
+    padding-left: 10em;
+    float: left;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+    padding-top: 8em;
+    position: absolute;
+}
+
+#persona {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 #nav-bar {
     width: 100%;
-    font-size: 30px;
     color: white;
     margin: 0;
     /* background-color: rgb(22, 22, 22); */
     background-color: rgb(56, 56, 56);
     /* background-image: linear-gradient(to right, #FF924E, #DD2452); */
-    padding: 0.4em;
+    padding: 0.65em;
     position: fixed;
     top: 0;
     z-index: 1;
