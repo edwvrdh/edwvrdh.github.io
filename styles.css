@@ -42,9 +42,17 @@ a {
 
 .center-text {
     text-align: center;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 20em;
+    padding-right: 20em;
 }
+
+.center-text-white {
+    text-align: center;
+    padding-left: 20em;
+    padding-right: 20em;
+    color: white;
+}
+
 .container {
     opacity: 0;
     transition: all 1s;
@@ -128,6 +136,15 @@ a {
     padding-bottom: 5em;
 }
 
+.purple-gradient {
+    background-color: rgb(235,229,255);
+    background: linear-gradient(180deg, rgba(235,229,255,1) 0%, rgba(145,112,255,1) 100%);
+}
+
+.dark-purple {
+    background-color: rgba(145,112,255,1);
+}
+
 .purple-title {
     font-size: 2em;
     color: #5500FF;
@@ -141,12 +158,35 @@ a {
     text-align: center;
 }
 
+.number-circle {
+    display: block;
+    width: 10%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.journey-text {
+    text-align: center;
+    color: white;
+
+}
+
 .padding-left {
     padding-left: 10em;
+}
+.padding-left-white {
+    padding-left: 10em;
+    color: white;
 }
 
 .padding-right {
     padding-right: 10em;
+}
+
+.padding-right-white {
+    padding-right: 10em;
+    color: white;
 }
 
 .image {
@@ -183,6 +223,34 @@ a {
     font-size: 1.25em;
     padding-top: 8em;
     position: absolute;
+}
+
+#train {
+    width: 100%;
+}
+
+#journey-map {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+#goals {
+    width: auto;
+    height: 10em;
+    padding-left: 10em;
+    float: right;
+    padding-top: 1.25em;
+}
+
+#frustrations {
+    width: auto;
+    height: 13em;
+    padding-left: 10em;
 }
 
 #persona {
