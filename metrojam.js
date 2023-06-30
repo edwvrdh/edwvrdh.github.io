@@ -9,7 +9,5 @@ const observer = new IntersectionObserver((entries) =>
     })
 )
 
-const hiddenElements = document.querySelectorAll('.container');
-const fadeElements = document.querySelectorAll('.single-container');
+const hiddenElements = document.querySelectorAll('.container, .single-container, .three-container');
 hiddenElements.forEach((el) => observer.observe(el));
-fadeElements.forEach((el) => observer.observe(el));
