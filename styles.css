@@ -12,6 +12,65 @@ a {
     text-decoration: none;
 }
 
+.sidemenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-size: 1em;
+  }
+  
+.sidemenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: grey;
+    display: block;
+    font-size: 1.5em;
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+    font-size: 0.75em;
+    color: #111;
+}
+
+.dropdown_btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 1.3em;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5em;
+}
+
+.active {
+    background-color:#FF924E;
+    color: black;
+}
+  
+.sidemenu a:hover {
+    color: white;
+}
+  
+.sidemenu .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 35px;
+}
+
 .heading-title {
     text-align: center;
     padding-top: 2em;
@@ -258,6 +317,20 @@ a {
     position: absolute;
 }
 
+.link {
+    color: #9D53FF;
+    font-weight: bold;
+}
+
+#resume {
+    padding-top: 5em;
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #metro-jam-logo {
     display: block;
     width: 25%;
@@ -383,15 +456,26 @@ a {
     top: 0;
     z-index: 1;
     box-shadow: 0 6px 6px -6px black;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em; */
 }
 
 #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 3%;
+    width: 3.5%;
     cursor: pointer;
+    display: block;
+    height: auto;
+    float: left;
 }
+
+#hamburger {
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    cursor: pointer;
+    float: left;
+  }
 
 #metrojam-header {
     padding-top: 3.5em;

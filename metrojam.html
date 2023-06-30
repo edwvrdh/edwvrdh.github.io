@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>MetroJam</title>
+        <title>Projects - MetroJam</title>
         <link rel="stylesheet" href="styles.css">
         <script defer src="metrojam.js"></script>
+        <script src="index.js"></script>
     </head>
     <body>
         <div id="nav-bar">
-            <img id="logo" src="images/e.png" alt="Logo with the letter 'E'" onclick="window.open('index.html', '_self')">
+            <div>
+                <span id="hamburger" onclick="openMenu()"> &#9776; </span>
+            </div>
+            <div>
+                <img id="logo" src="images/e.png" alt="Logo with the letter 'E'" onclick="window.open('index.html', '_self')">
+            </div>
+        </div>
+
+        <div id="sideMenu" class="sidemenu">
+            <a class="closebtn" onclick="closeMenu()"> &times; </a>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
         </div>
 
         <div class="wrapper">
