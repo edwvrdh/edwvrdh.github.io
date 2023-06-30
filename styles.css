@@ -258,6 +258,14 @@ a {
     position: absolute;
 }
 
+#metro-jam-logo {
+    display: block;
+    width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #banner {
     padding-top: 2em;
     display: block;
