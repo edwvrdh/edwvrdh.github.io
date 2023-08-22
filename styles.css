@@ -276,6 +276,14 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+.green-sub-title {
+    font-size: 1.5em;
+    color: #C9EC57;
+    background: -webkit-linear-gradient(#C9EC57, #004F0D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .purple {
     background-color: rgb(235, 229, 255);
@@ -418,6 +426,22 @@ a {
 .paper-prototype {
     display: block;
     width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-title {
+    font-size: 1.5em;
+}
+
+.box-text {
+    font-size: 0.9em;
+}
+
+#exercise-screen {
+    display: block;
+    width: 20%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
