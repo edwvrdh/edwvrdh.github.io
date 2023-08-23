@@ -415,6 +415,18 @@ a {
     font-weight: bold;
 }
 
+.prototype {
+    padding-top: 2em;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.prototype-image {
+    width: 50%;
+}
+
 #storyboard {
     display: block;
     width: 60%;
@@ -437,6 +449,19 @@ a {
 
 .box-text {
     font-size: 0.9em;
+}
+
+.box-text-center {
+    text-align: center;
+}
+
+#active-garden-images {
+    padding-top: 5%;
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #exercise-screen {
