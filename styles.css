@@ -248,6 +248,19 @@ a {
     filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
 }
 
+.white-box-on-image {
+    width: 30%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    padding: 2em;
+    border-radius: 1em;
+    filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+    transform: translate(-50%, -50%);
+}
+
 .box {
     width: 60%;
     display: block;
@@ -402,6 +415,10 @@ a {
     padding-top: 3em;
 }
 
+#warp-header-text {
+    font-size: 2em;
+}
+
 #small-dots {
     display: block;
     width: 3%;
@@ -409,6 +426,15 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding-top: 3em;
+}
+
+#warp-dots {
+    display: block;
+    width: 6%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
 }
 
 .header-text {
@@ -468,24 +494,11 @@ a {
     position: relative;
     text-align: center;
     color: black;
-    width: 100%;
-    height: auto;
 }
 
-#warp-title {
-    padding-top: 5%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.warp-text {
-    padding-top: 5%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#warp {
+    max-width: 100%;
+    aspect-ratio: 1 / 0.4;
 }
 
 #active-garden-images {
