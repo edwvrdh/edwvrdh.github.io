@@ -402,6 +402,15 @@ a {
     padding-top: 3em;
 }
 
+#small-dots {
+    display: block;
+    width: 3%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+}
+
 .header-text {
     color: white;
     text-align: center;
@@ -453,6 +462,30 @@ a {
 
 .box-text-center {
     text-align: center;
+}
+
+#warp-background {
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+
+#warp-title {
+    padding-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.warp-text {
+    padding-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #active-garden-images {
