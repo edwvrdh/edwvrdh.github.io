@@ -286,6 +286,10 @@ a {
     padding-bottom: 5em;
 }
 
+.cream {
+    background-color: #fefaef;
+}
+
 .green-title {
     font-size: 2em;
     color: #C9EC57;
@@ -732,6 +736,11 @@ footer {
     width: 100%;
 }
 
+#green-footer {
+    width: 100%;
+}
+
+
  /*600px, 601px, 768px, 992px, 1200px */
 @media only screen and (max-width: 600px) {
     #nav-bar {
@@ -1102,7 +1111,7 @@ footer {
 
     }
 
-    footer {
+    .footer {
         background-color: #fefaef;
         margin-right: auto;
         margin-left: auto;
