@@ -753,7 +753,7 @@ a {
     .heading-description {
         text-align: center;
         padding-top: 10em;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
     .portfolio-list {
@@ -774,9 +774,17 @@ a {
         display: block;
         width: 10%;
         height: auto;
-        margin-left: 45%;
+        margin-left: 47%;
         padding-top: 2em;
         padding-bottom: 2em;
+    }
+
+    #warp-header-text {
+        font-size: 2em;
+    }
+
+    #header-text {
+        margin-left: 5%;
     }
 
 }
