@@ -753,6 +753,7 @@ a {
     .heading-description {
         text-align: center;
         padding-top: 10em;
+        margin-left: 5%;
     }
 
     .portfolio-list {
@@ -768,7 +769,16 @@ a {
         height: 13em;
         cursor: pointer;
     }
-    
+
+    #star {
+        display: block;
+        width: 10%;
+        height: auto;
+        margin-left: 45%;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -822,7 +832,8 @@ a {
 
     .heading-description {
         text-align: center;
-        padding-top: 8em;
+        padding-top: 10em;
+        margin-left: 5%;
     }
 
     .portfolio-list {
@@ -831,6 +842,21 @@ a {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 1em;
+    }
+
+    .portfolio-list .portfolio-image {
+        width: auto;
+        height: 13em;
+        cursor: pointer;
+    }
+
+    #star {
+        display: block;
+        width: 10%;
+        height: auto;
+        margin-left: 45%;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
     
 }
