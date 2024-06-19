@@ -995,6 +995,79 @@ a {
         margin-right: auto;
     
     }
+
+    #metro-jam-logo {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-text {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .fit-width {
+        max-width: auto;
+        height: 10em;
+        object-fit: none;
+        margin-top: 2em;
+    }
+
+    #storyboard {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .center-text-less-padding {
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .paper-prototype {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #paper-prototype-small {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #exercise-screen {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prototype-image {
+        width: 85%;
+    }
+
+    #active-garden-images {
+        padding-top: 5%;
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -1003,7 +1076,7 @@ a {
         color: white;
         margin: 0;
         background-color: rgb(26, 26, 26);
-        padding: 2em;
+        padding: 1.5em;
         position: fixed;
         top: 0;
         z-index: 1;
@@ -1089,12 +1162,12 @@ a {
         padding-right: 0.5em;
         cursor: pointer;
         float: left;
-    }
+      }
 
     #resume {
         padding-top: 10em;
         display: block;
-        width: 80%;
+        width: 90%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -1110,8 +1183,192 @@ a {
         text-align: center;
         padding: 1em;
     }
-    
 
+    .padding-left {
+        text-align: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 1em;
+    }
+
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: auto;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .image-left {
+        padding-top: 4em;
+        width: auto;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .padding-right {
+        text-align: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+    }
+
+    #persona {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dots {
+        display: block;
+        width: 10%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3em;
+    }
+
+    .black-dots {
+        display: block;
+        width: 7%;
+        height: auto;
+    }
+
+    .medium-image {
+        width: 90%;
+        height: auto;
+        margin-left: -8.5em;
+    }
+
+    #goals {
+        width: 90%;
+        height: auto;
+        margin-left: -8.5em;
+    }
+
+    #frustrations {
+        width: 90%;
+        height: auto;
+        margin-left: -8.5em;
+    }
+
+    #journey-map {
+        width: 95%;
+        height: auto;
+    }
+
+    .center-text-white {
+        text-align: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        color: white;
+    }
+
+    #train {
+        width: auto;
+        height: 10em;
+
+    }
+
+    #wireframe {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+
+    #favourites {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+
+    #homepage-text-left {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-top: 1em;
+    }
+
+    .three-container {
+        grid-template-columns: 1fr;
+    }
+
+    #homepage-text-right {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-top: 1em;
+    }
+
+    #homepage {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #playing-padding-left {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #now-playing-dots {
+        opacity: 0;
+    }
+
+    #playing {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #banner {
+        padding-top: 2em;
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    #metro-jam-logo {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-text {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -1135,5 +1392,207 @@ a {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 1em;
+    }
+
+    .padding-left {
+        text-align: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 1em;
+    }
+
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .image-left {
+        padding-top: 2em;
+        width: auto;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding-bottom: 2em;
+    }
+
+    .padding-right {
+        text-align: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+    }
+
+    #persona {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dots {
+        display: block;
+        width: 7%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3em;
+    }
+
+    .black-dots {
+        display: block;
+        width: 7%;
+        height: auto;
+    }
+
+    .medium-image {
+        width: 60%;
+        height: auto;
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #goals {
+        width: 60%;
+        height: auto;
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #frustrations {
+        width: 60%;
+        height: auto;
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #journey-map {
+        width: 95%;
+        height: auto;
+    }
+
+    .center-text-white {
+        text-align: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        color: white;
+    }
+
+    #train {
+        width: auto;
+        height: 10em;
+
+    }
+
+    #wireframe {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+
+    #favourites {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+
+    #homepage-text-left {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-top: 1em;
+    }
+
+    .three-container {
+        grid-template-columns: 1fr;
+    }
+
+    #homepage-text-right {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-top: 1em;
+        padding-bottom: 2em;
+    }
+
+    #homepage {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #playing-padding-left {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #now-playing-dots {
+        opacity: 0;
+    }
+
+    #playing {
+        display: block;
+        width: 35%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #banner {
+        padding-top: 2em;
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    #metro-jam-logo {
+        display: block;
+        width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-text {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .center-text {
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
     }
 }
