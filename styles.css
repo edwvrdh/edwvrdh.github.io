@@ -709,6 +709,19 @@ a {
     font-size: 1.2em;
 }
 
+.icon {
+    display: block;
+    width: 4em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+}
+
+footer {
+    background-color: #fefaef;
+}
+
  /*600px, 601px, 768px, 992px, 1200px */
 @media only screen and (max-width: 600px) {
     #nav-bar {
