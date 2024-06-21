@@ -433,6 +433,13 @@ a {
     padding-top: 3em;
 }
 
+#center-logo-text {
+    text-align: center;
+    padding: 1em;
+    
+
+}
+
 #warp-header-text {
     font-size: 2em;
 }
@@ -858,8 +865,8 @@ footer {
 
     #center-logo-text {
         text-align: center;
-        padding: 1em;
-        padding-right: 2em;
+        padding-top: 1em;
+        padding-right: 3em;
     }
 
     .padding-left {
@@ -1114,9 +1121,6 @@ footer {
         margin-left: auto;
         margin-right: auto;
         padding-top: 2em;
-        padding-right: 1em;
-
-
     }
 
     .footer {
@@ -1124,6 +1128,16 @@ footer {
         margin-right: auto;
         margin-left: auto;
         width: 110%;
+    }
+
+    #icon-mj {
+        display: block;
+        width: 4em;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2em;
+        padding-right: 2em;
     }
 }
 
