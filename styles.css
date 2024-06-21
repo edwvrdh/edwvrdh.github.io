@@ -856,6 +856,12 @@ footer {
         padding: 1em;
     }
 
+    #center-logo-text {
+        text-align: center;
+        padding: 1em;
+        padding-right: 2em;
+    }
+
     .padding-left {
         text-align: center;
         padding-left: 3em;
@@ -1108,6 +1114,8 @@ footer {
         margin-left: auto;
         margin-right: auto;
         padding-top: 2em;
+        padding-right: 1em;
+
 
     }
 
