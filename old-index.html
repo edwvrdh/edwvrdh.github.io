@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <title>Home</title>
+        <link rel="icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="metrojam.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="nav-bar">
+            <div>
+                <span id="hamburger" onclick="openMenu()"> &#9776; </span>
+            </div>
+            <div>
+                <img id="logo" src="images/e.png" alt="Logo with the letter 'E'" onclick="window.open('index.html', '_self')">
+            </div>
+        </div>
+
+        <div id="sideMenu" class="sidemenu">
+            <a class="closebtn" onclick="closeMenu()"> &times; </a>
+            <a class="sidebar-item"href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+        </div>
+        <div>
+            <div id="warp-background">
+                <img id="checkered" src="images/warp-crop.jpg">
+                <div class="white-box-on-image">
+                    <div id="header-text"><b id="warp-header-text">&#128075; Hi, I'm Edward.</b> <br><br>
+                        I am a final year Computer Science student<br>
+                        majoring in Interaction Design at UTS.
+                    </div>
+                    <img id="star" src="images/star.png">
+                </div>
+                
+            </div>
+        </div>
+  
+        <br><br>
+        <p class="heading-description"><b>Explore my mind through design:</b></p>
+        <div>
+            <ul>
+                <div class="portfolio-list">
+                    <div>
+                        <img class="portfolio-image" src="images/dragon.jpg" alt="Declutter Dragon app for my capstone project" onclick="window.open('declutter-dragon.html', '_self')">
+                        <p><a href="declutter-dragon.html"><b class="image-title">Declutter Dragon</b></a><br>
+                            Improving mental wellbeing within the home.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="portfolio-image" src="images/metro.png" alt="MetroJam app for a commuting UX case study" onclick="window.open('metrojam.html', '_self')">
+                        <p><a href="metrojam.html"><b class="image-title">MetroJam</b></a><br>
+                            Supporting improved experiences for regular <br>commuters.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="portfolio-image" src="images/activegardenimage.png" alt="Plant Care app for active aging" onclick="window.open('active-garden.html', '_self')">
+                        <p><a href="active-garden.html"><b class="image-title">Active Garden</b></a><br>
+                            Using networked technologies to enhance active<br> aging.
+                        </p>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </body>
+    <!-- <footer class="footer">
+        <img class="icon" src="images/mindindesign.png">
+        <p class="center-text">&#169 2024</p>
+        <br><br>
+    </footer> -->
+</html>
