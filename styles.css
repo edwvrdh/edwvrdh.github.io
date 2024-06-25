@@ -138,6 +138,19 @@ a {
     padding-top: 2em;
 }
 
+.dragon-three-container {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(0.1em);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding-top: 2em;
+    text-align: center;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
 .container {
     opacity: 0;
     transition: all 1s;
@@ -157,6 +170,10 @@ a {
     grid-template-columns: 1fr;
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+.white {
+    color: #f9f9f9;
 }
 
 .wrapper {
@@ -252,6 +269,18 @@ a {
     filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
 }
 
+.green-box {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #116900;
+    padding: 3em;
+    border-radius: 1em;
+    filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+}
+
 .white-box-on-image {
     width: 40%;
     display: block;
@@ -276,6 +305,21 @@ a {
 
 }
 
+.italics-quote {
+    display: block;
+    font-style: italic;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+.center-left-align {
+    width: 65%;
+    margin: auto;
+}
+
 .subheading {
     font-size: 1.5em;
 }
@@ -288,6 +332,10 @@ a {
 
 .cream {
     background-color: #fefaef;
+}
+
+.black-heading {
+    font-size: 1.75em;
 }
 
 .green-title {
@@ -385,6 +433,10 @@ a {
     color: white;
 }
 
+.dark-green {
+    color: #116900;
+}
+
 .gradient-background {
     background-color: #c3eaff;
     background: linear-gradient(to right, #c3eaff 0%, #daf4e9 50%, #f1fcc1 100%);
@@ -431,6 +483,15 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding-top: 3em;
+}
+
+#dragon-intro-phones {
+    display: block;
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.5em;
 }
 
 #center-logo-text {
@@ -521,10 +582,15 @@ a {
 }
 
 .white-divider {
-    border-top: 0.1em solid white;
+    border-top: 0.1em solid #f9f9f9;
     width: 40%;
     background-color: transparent;
+}
 
+.divider {
+    border-top: 0.1em solid black;
+    width: 40%;
+    background-color: transparent;
 }
 
 #warp-background {
@@ -979,14 +1045,7 @@ footer {
         text-align: center;
         padding-left: 3em;
         padding-right: 3em;
-        color: white;
-    }
-
-    .center-text-grey {
-        text-align: center;
-        padding-left: 3em;
-        padding-right: 3em;
-        color: white;
+        color: #f9f9f9;
     }
 
     #train {
@@ -1167,6 +1226,25 @@ footer {
         padding-top: 2em;
         padding-right: 2em;
     }
+
+    .dragon-three-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+        padding-top: 2em;
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #dragon-intro-phones {
+        display: block;
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1em;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -1196,6 +1274,10 @@ footer {
         color: grey;
         display: block;
         font-size: 2em;
+    }
+
+    .declutter-dragon-bg {
+        background-color: #76D863;
     }
 
     #logo {
@@ -1339,6 +1421,16 @@ footer {
         padding-top: 3em;
     }
 
+    .dragon-three-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+        padding-top: 2em;
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
     .black-dots {
         display: block;
         width: 7%;
@@ -1468,6 +1560,23 @@ footer {
         padding-right: 1.5em;
     }
 
+    #metro-jam-logo {
+        display: block;
+        width: 45%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #dragon-intro-phones {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1.25em;
+    }
+
     footer {
         background-color: #fefaef;
         margin-right: auto;
@@ -1519,6 +1628,16 @@ footer {
 
     .container {
         grid-template-columns: 1fr;
+    }
+
+    .dragon-three-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+        padding-top: 2em;
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     
     .image-left {
@@ -1701,6 +1820,15 @@ footer {
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
+
+    #dragon-intro-phones {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1.25em;
+    }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1199px) {
@@ -1709,4 +1837,22 @@ footer {
         grid-template-columns: 1fr 1fr;
 
     }
+
+    .center-text-white {
+        text-align: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        color: white;
+    }
+
+    .dragon-three-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+        padding-top: 2em;
+        text-align: center;
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
 }
