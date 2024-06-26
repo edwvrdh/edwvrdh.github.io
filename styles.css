@@ -191,6 +191,18 @@ a {
     padding-bottom: 2em;
 }
 
+.boxes-container {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(0.1em);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-left: 12.5em;
+    margin-right: 12.5em;
+}
+
 .single-container {
     opacity: 0;
     transition: all 1s;
@@ -201,8 +213,22 @@ a {
     padding-bottom: 2em;
 }
 
+.four-container {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(0.1em);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .white {
     color: #f9f9f9;
+}
+
+.off-white-text {
+    color: #FEFAEF;
 }
 
 .wrapper {
@@ -302,6 +328,18 @@ a {
     filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
 }
 
+.two-white-box {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+}
+
 .dark-box {
     width: 60%;
     display: block;
@@ -324,6 +362,20 @@ a {
     padding: 3em;
     border-radius: 1em;
     filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+}
+
+.smaller-green-box {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #116900;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+    filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+    color: #FEFAEF;
 }
 
 .white-box-on-image {
@@ -355,7 +407,7 @@ a {
     display: block;
     font-style: italic;
     font-size: 3em;
-    color: white;
+    color: #FEFAEF;
     text-align: center;
     margin: auto;
 
@@ -364,6 +416,24 @@ a {
 .center-left-align {
     width: 65%;
     margin: auto;
+}
+
+#right-align-grey-text {
+    width: 60%;
+    margin-left: 22.5em;
+    color: grey;
+}
+
+.box-center-left-align {
+    width: 65%;
+    margin: auto;
+}
+
+.center-left-align-caption {
+    padding-top: 1.5em;
+    width: 40%;
+    margin: auto;
+    font-style: italic;
 }
 
 .subheading {
@@ -507,6 +577,11 @@ a {
     color: #116900;
 }
 
+.dark-green-heading {
+    color: #116900;
+    font-size: 1.75em;
+}
+
 .gradient-background {
     background-color: #c3eaff;
     background: linear-gradient(to right, #c3eaff 0%, #daf4e9 50%, #f1fcc1 100%);
@@ -566,6 +641,13 @@ a {
     position: relative;
 }
 
+#apps {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #checkered {
     padding-top: 3em;
     width: 100%;
@@ -580,11 +662,60 @@ a {
     border-radius: 1.5em;
 }
 
+#first-prototype {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    display: block;
+    width: 8%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-prototype {
+    padding-top: 3em;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figma-prototype {
+    padding-top: 3em;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questionnaire {
+    padding-top: 3em;
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proto {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+}
+
 #center-logo-text {
     text-align: center;
     padding: 1em;
-    
-
 }
 
 #warped {
@@ -655,7 +786,7 @@ a {
 }
 
 .sub-title {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .box-text {
@@ -981,6 +1112,15 @@ footer {
         font-size: 2em;
     }
 
+    .boxes-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
     #logo {
         width: 2.5em;
         cursor: pointer;
@@ -1045,6 +1185,28 @@ footer {
         padding: 3em;
         border-radius: 1em;
         filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+    }
+
+    .two-white-box {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+        position: relative;
+        background-color: white;
+        padding: 2em;
+        border-radius: 1em;
+        filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+    }
+
+    .second-prototype {
+        padding-top: 3em;
+        display: block;
+        width: 85%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #header-text {
@@ -1209,6 +1371,15 @@ footer {
         padding-bottom: 3em;
     }
 
+    #questionnaire {
+        padding-top: 3em;
+        display: block;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #homepage-text-left {
         text-align: center;
         padding-left: 1em;
@@ -1307,6 +1478,13 @@ footer {
         margin-right: auto;
     }
 
+    #apps {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
     #paper-prototype-small {
         display: block;
         width: 50%;
@@ -1334,6 +1512,11 @@ footer {
         height: auto;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .box-center-left-align {
+        width: 80%;
+        margin: auto;
     }
 
     .icon {
@@ -1434,8 +1617,25 @@ footer {
         filter: drop-shadow(0 0.5em 0.5em rgba(0, 0, 0, 0.136));
     }
 
+    .boxes-container {
+        transition: all 1s;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
     #checkered {
         opacity: 0;
+    }
+
+    #apps {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 
     .heading-description {
@@ -1462,6 +1662,19 @@ footer {
         padding-top: 3em;
         width: 100%;
 
+    }
+
+    .two-white-box {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+        position: relative;
+        background-color: white;
+        padding: 2em;
+        border-radius: 1em;
+        filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
     }
 
     #star {
@@ -1573,6 +1786,15 @@ footer {
         text-align: center;
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    #questionnaire {
+        padding-top: 3em;
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .black-dots {
@@ -1754,6 +1976,29 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 1em;
+    }
+
+    .two-white-box {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+        position: relative;
+        background-color: white;
+        padding: 2em;
+        border-radius: 1em;
+        filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+    }
+
+    .boxes-container {
+        transition: all 1s;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
     }
 
     .padding-left {
@@ -2000,6 +2245,29 @@ footer {
         text-align: center;
         padding-left: 10em;
         padding-right: 10em;
+    }
+
+    .two-white-box {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+        position: relative;
+        background-color: white;
+        padding: 2em;
+        border-radius: 1em;
+        filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.136));
+    }
+
+    .boxes-container {
+        transition: all 1s;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin-left: 8.5em;
+        margin-right: 8.5em;
     }
     
 }
