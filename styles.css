@@ -656,9 +656,43 @@ a {
     border-radius: 1.5em;
 }
 
+#refined-mid-fi {
+    display: block;
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+
+#mid-frames {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #first-prototype {
     display: block;
     width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reference-image {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mid-fi-screen {
+    padding-top: 4em;
+    display: block;
+    width: 62%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -1556,6 +1590,23 @@ footer {
         margin-right: auto;
         border-radius: 1em;
     }
+
+    #refined-mid-fi {
+        display: block;
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1em;
+    }
+
+    #mid-frames {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -1937,6 +1988,23 @@ footer {
         border-radius: 1.25em;
     }
 
+    #refined-mid-fi {
+        display: block;
+        width: 65%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0.75em;
+    }
+
+    #mid-frames {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     footer {
         background-color: #fefaef;
         margin-right: auto;
@@ -2215,6 +2283,25 @@ footer {
         margin-right: auto;
         border-radius: 1.25em;
     }
+
+    #refined-mid-fi {
+        display: block;
+        width: 65%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1em;
+    }
+
+    #mid-frames {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1199px) {
