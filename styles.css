@@ -698,6 +698,44 @@ a {
     margin-right: auto;
 }
 
+#mvp-frame {
+    padding-top: 2em;
+    display: block;
+    width: 35%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mvp-video {
+    clip-path: inset(0.1em 1px);
+    width: 30%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+}
+
+.mvp-video-single {
+    clip-path: inset(0.1em 1px);
+    width: 15%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+}
+
+.mvp-screen {
+    padding-top: 4em;
+    display: block;
+    width: 55%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .features {
     display: block;
     width: 8%;
@@ -1258,6 +1296,25 @@ footer {
         margin-right: auto;
     }
 
+    .mvp-video {
+        clip-path: inset(0.1em 1px);
+        width: 45%;
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4em;
+    }
+
+    #mvp-frame {
+        padding-top: 2em;
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .link {
         color: #9D53FF;
         font-weight: bold;
@@ -1294,6 +1351,15 @@ footer {
 
     .container {
         grid-template-columns: 1fr;
+    }
+
+    .mvp-screen {
+        padding-top: 4em;
+        display: block;
+        width: 65%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .image-left {
