@@ -506,6 +506,10 @@ a {
     text-align: center;
 }
 
+.purple-text {
+    color:#5500FF;
+}
+
 .white-heading {
     color: white;
     text-align: center;
@@ -654,6 +658,15 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 1.5em;
+}
+
+#jam-intro-phones {
+    display: block;
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
 }
 
 #refined-mid-fi {
@@ -888,6 +901,14 @@ a {
 
 .green-divider {
     border-top: 0.1em solid #148600;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+.purple-divider {
+    border-top: 0.1em solid #5500FF;;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -1659,6 +1680,15 @@ footer {
     }
 
     #dragon-intro-phones {
+        display: block;
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1em;
+    }
+
+    #jam-intro-phones {
         display: block;
         width: 95%;
         height: auto;
