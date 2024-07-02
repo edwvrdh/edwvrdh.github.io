@@ -719,7 +719,17 @@ a {
 
 .mvp-video-single {
     clip-path: inset(0.1em 1px);
-    width: 15%;
+    width: 30%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+}
+
+.mvp-video-single {
+    clip-path: inset(0.1em 1px);
+    width: 40%;
     display: block;
     height: auto;
     margin-left: auto;
@@ -1708,6 +1718,16 @@ footer {
         background-color: #76D863;
     }
 
+    .mvp-video-single {
+        clip-path: inset(0.1em 1px);
+        width: 35%;
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4em;
+    }
+
     #logo {
         width: 2.5em;
         cursor: pointer;
@@ -2415,6 +2435,26 @@ footer {
         padding-bottom: 2em;
         margin-left: 8.5em;
         margin-right: 8.5em;
+    }
+
+    .mvp-video {
+        clip-path: inset(0.1em 1px);
+        width: 45%;
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4em;
+    }
+
+    .mvp-video-single {
+        clip-path: inset(0.1em 1px);
+        width: 75%;
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4em;
     }
     
 }
